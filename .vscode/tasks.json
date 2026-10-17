@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Sewa: Expo Web",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"start:lan"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

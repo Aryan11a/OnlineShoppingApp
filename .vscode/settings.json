@@ -1,0 +1,23 @@
+{
+  "mcp": {
+    "servers": {
+      "context7": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@context7/mcp-server"
+        ],
+        "type": "stdio",
+        "env": {}
+      },
+      "token-cache": {
+        "command": "node",
+        "args": [
+          "/home/user/.vscode/extensions/ai-token-optimizer.ai-token-optimize-claude-0.1.1/dist/cache-server.js",
+          "/home/user/Developer/Vs-code"
+        ],
+        "type": "stdio"
+      }
+    }
+  }
+}
